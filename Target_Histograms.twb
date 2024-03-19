@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (project1_prepped)' inline='true' name='federated.0tjqk1x1u2avxa1eq4bax0amjmrm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='project1_prepped' name='excel-direct.1aacryw0hbah2519zzj5p1h343k4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/agarc/OneDrive/Documents/GitHub/Virginia_Tech_Masters/ECE_5984_Appl_Machine_Learning_SP22/Project_1/project1_prepped.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1aacryw0hbah2519zzj5p1h343k4' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BN10001:no:A1:BN10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='DATE' ordinal='1' />
+            <column datatype='integer' name='TMAX' ordinal='2' />
+            <column datatype='integer' name='TMIN' ordinal='3' />
+            <column datatype='integer' name='PRCP' ordinal='4' />
+            <column datatype='integer' name='SNOW' ordinal='5' />
+            <column datatype='integer' name='SNWD' ordinal='6' />
+            <column datatype='string' name='DAPR' ordinal='7' />
+            <column datatype='string' name='MDPR' ordinal='8' />
+            <column datatype='string' name='WT01' ordinal='9' />
+            <column datatype='string' name='WT16' ordinal='10' />
+            <column datatype='string' name='WT18' ordinal='11' />
+            <column datatype='string' name='GAHT' ordinal='12' />
+            <column datatype='string' name='WT03' ordinal='13' />
+            <column datatype='string' name='EVAP' ordinal='14' />
+            <column datatype='string' name='WDMV' ordinal='15' />
+            <column datatype='string' name='WT05' ordinal='16' />
+            <column datatype='string' name='WT09' ordinal='17' />
+            <column datatype='string' name='WT06' ordinal='18' />
+            <column datatype='string' name='DAEV' ordinal='19' />
+            <column datatype='string' name='DAWM' ordinal='20' />
+            <column datatype='string' name='MDEV' ordinal='21' />
+            <column datatype='string' name='MDWM' ordinal='22' />
+            <column datatype='string' name='WT14' ordinal='23' />
+            <column datatype='string' name='WT04' ordinal='24' />
+            <column datatype='string' name='WT08' ordinal='25' />
+            <column datatype='string' name='WESD' ordinal='26' />
+            <column datatype='string' name='WT07' ordinal='27' />
+            <column datatype='string' name='WSFG' ordinal='28' />
+            <column datatype='string' name='FRGB' ordinal='29' />
+            <column datatype='string' name='FRGT' ordinal='30' />
+            <column datatype='string' name='FRTH' ordinal='31' />
+            <column datatype='string' name='THIC' ordinal='32' />
+            <column datatype='string' name='ACMH' ordinal='33' />
+            <column datatype='string' name='ACSH' ordinal='34' />
+            <column datatype='string' name='PSUN' ordinal='35' />
+            <column datatype='string' name='TSUN' ordinal='36' />
+            <column datatype='string' name='WDFM' ordinal='37' />
+            <column datatype='string' name='WSFM' ordinal='38' />
+            <column datatype='string' name='WT02' ordinal='39' />
+            <column datatype='string' name='PGTM' ordinal='40' />
+            <column datatype='string' name='WDFG' ordinal='41' />
+            <column datatype='string' name='WDF1' ordinal='42' />
+            <column datatype='string' name='WSF1' ordinal='43' />
+            <column datatype='string' name='AWND' ordinal='44' />
+            <column datatype='string' name='FMTM' ordinal='45' />
+            <column datatype='string' name='WT17' ordinal='46' />
+            <column datatype='string' name='WT10' ordinal='47' />
+            <column datatype='string' name='WT15' ordinal='48' />
+            <column datatype='string' name='WDF2' ordinal='49' />
+            <column datatype='string' name='WDF5' ordinal='50' />
+            <column datatype='string' name='WSF2' ordinal='51' />
+            <column datatype='string' name='WSF5' ordinal='52' />
+            <column datatype='string' name='WT19' ordinal='53' />
+            <column datatype='string' name='WT11' ordinal='54' />
+            <column datatype='string' name='WT13' ordinal='55' />
+            <column datatype='string' name='WT22' ordinal='56' />
+            <column datatype='string' name='TAVG' ordinal='57' />
+            <column datatype='string' name='WV03' ordinal='58' />
+            <column datatype='string' name='WV07' ordinal='59' />
+            <column datatype='string' name='WV01' ordinal='60' />
+            <column datatype='string' name='WT21' ordinal='61' />
+            <column datatype='integer' name='PRECIPFLAG' ordinal='62' />
+            <column datatype='real' name='PRECIPAMT' ordinal='63' />
+            <column datatype='integer' name='NEXTDAYPRECIPFLAG' ordinal='64' />
+            <column datatype='real' name='NEXTDAYPRECIPAMT' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1aacryw0hbah2519zzj5p1h343k4' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BN10001:no:A1:BN10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='DATE' ordinal='1' />
+            <column datatype='integer' name='TMAX' ordinal='2' />
+            <column datatype='integer' name='TMIN' ordinal='3' />
+            <column datatype='integer' name='PRCP' ordinal='4' />
+            <column datatype='integer' name='SNOW' ordinal='5' />
+            <column datatype='integer' name='SNWD' ordinal='6' />
+            <column datatype='string' name='DAPR' ordinal='7' />
+            <column datatype='string' name='MDPR' ordinal='8' />
+            <column datatype='string' name='WT01' ordinal='9' />
+            <column datatype='string' name='WT16' ordinal='10' />
+            <column datatype='string' name='WT18' ordinal='11' />
+            <column datatype='string' name='GAHT' ordinal='12' />
+            <column datatype='string' name='WT03' ordinal='13' />
+            <column datatype='string' name='EVAP' ordinal='14' />
+            <column datatype='string' name='WDMV' ordinal='15' />
+            <column datatype='string' name='WT05' ordinal='16' />
+            <column datatype='string' name='WT09' ordinal='17' />
+            <column datatype='string' name='WT06' ordinal='18' />
+            <column datatype='string' name='DAEV' ordinal='19' />
+            <column datatype='string' name='DAWM' ordinal='20' />
+            <column datatype='string' name='MDEV' ordinal='21' />
+            <column datatype='string' name='MDWM' ordinal='22' />
+            <column datatype='string' name='WT14' ordinal='23' />
+            <column datatype='string' name='WT04' ordinal='24' />
+            <column datatype='string' name='WT08' ordinal='25' />
+            <column datatype='string' name='WESD' ordinal='26' />
+            <column datatype='string' name='WT07' ordinal='27' />
+            <column datatype='string' name='WSFG' ordinal='28' />
+            <column datatype='string' name='FRGB' ordinal='29' />
+            <column datatype='string' name='FRGT' ordinal='30' />
+            <column datatype='string' name='FRTH' ordinal='31' />
+            <column datatype='string' name='THIC' ordinal='32' />
+            <column datatype='string' name='ACMH' ordinal='33' />
+            <column datatype='string' name='ACSH' ordinal='34' />
+            <column datatype='string' name='PSUN' ordinal='35' />
+            <column datatype='string' name='TSUN' ordinal='36' />
+            <column datatype='string' name='WDFM' ordinal='37' />
+            <column datatype='string' name='WSFM' ordinal='38' />
+            <column datatype='string' name='WT02' ordinal='39' />
+            <column datatype='string' name='PGTM' ordinal='40' />
+            <column datatype='string' name='WDFG' ordinal='41' />
+            <column datatype='string' name='WDF1' ordinal='42' />
+            <column datatype='string' name='WSF1' ordinal='43' />
+            <column datatype='string' name='AWND' ordinal='44' />
+            <column datatype='string' name='FMTM' ordinal='45' />
+            <column datatype='string' name='WT17' ordinal='46' />
+            <column datatype='string' name='WT10' ordinal='47' />
+            <column datatype='string' name='WT15' ordinal='48' />
+            <column datatype='string' name='WDF2' ordinal='49' />
+            <column datatype='string' name='WDF5' ordinal='50' />
+            <column datatype='string' name='WSF2' ordinal='51' />
+            <column datatype='string' name='WSF5' ordinal='52' />
+            <column datatype='string' name='WT19' ordinal='53' />
+            <column datatype='string' name='WT11' ordinal='54' />
+            <column datatype='string' name='WT13' ordinal='55' />
+            <column datatype='string' name='WT22' ordinal='56' />
+            <column datatype='string' name='TAVG' ordinal='57' />
+            <column datatype='string' name='WV03' ordinal='58' />
+            <column datatype='string' name='WV07' ordinal='59' />
+            <column datatype='string' name='WV01' ordinal='60' />
+            <column datatype='string' name='WT21' ordinal='61' />
+            <column datatype='integer' name='PRECIPFLAG' ordinal='62' />
+            <column datatype='real' name='PRECIPAMT' ordinal='63' />
+            <column datatype='integer' name='NEXTDAYPRECIPFLAG' ordinal='64' />
+            <column datatype='real' name='NEXTDAYPRECIPAMT' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BN10001:no:A1:BN10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DATE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TMAX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TMAX]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TMAX</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TMIN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TMIN]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TMIN</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRCP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRCP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRCP</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNOW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNOW]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SNOW</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNWD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNWD]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SNWD</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAPR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DAPR]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAPR</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MDPR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MDPR]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MDPR</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT01</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT01]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT01</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT16]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT16</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT18]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT18</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GAHT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GAHT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GAHT</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT03</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT03]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT03</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EVAP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EVAP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>EVAP</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDMV</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDMV]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDMV</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT05</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT05]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT05</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT09</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT09]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT09</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT06</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT06]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT06</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAEV</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DAEV]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAEV</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAWM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DAWM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAWM</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MDEV</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MDEV]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MDEV</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MDWM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MDWM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MDWM</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT14]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT14</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT04</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT04]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT04</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT08</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT08]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT08</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WESD</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WESD]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WESD</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT07</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT07]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT07</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WSFG</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WSFG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WSFG</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FRGB</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FRGB]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FRGB</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FRGT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FRGT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FRGT</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FRTH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FRTH]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FRTH</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THIC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[THIC]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>THIC</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACMH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACMH]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACMH</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACSH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACSH]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACSH</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PSUN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PSUN]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PSUN</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TSUN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TSUN]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TSUN</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDFM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDFM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDFM</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WSFM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WSFM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WSFM</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT02</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT02]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT02</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PGTM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PGTM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PGTM</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDFG</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDFG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDFG</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDF1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDF1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDF1</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WSF1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WSF1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WSF1</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWND</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AWND]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AWND</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FMTM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FMTM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>FMTM</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT17]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT17</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT10]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT10</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT15]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT15</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDF2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDF2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDF2</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WDF5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WDF5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WDF5</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WSF2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WSF2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WSF2</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WSF5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WSF5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WSF5</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT19</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT19]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT19</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT11]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT11</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT13]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT13</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT22]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT22</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAVG</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TAVG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TAVG</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WV03</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WV03]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WV03</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WV07</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WV07]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WV07</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WV01</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WV01]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WV01</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT21</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT21]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WT21</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRECIPFLAG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRECIPFLAG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRECIPFLAG</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRECIPAMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PRECIPAMT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRECIPAMT</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEXTDAYPRECIPFLAG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NEXTDAYPRECIPFLAG]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NEXTDAYPRECIPFLAG</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEXTDAYPRECIPAMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NEXTDAYPRECIPAMT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NEXTDAYPRECIPAMT</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_21106102BCE542D899B603E55EDBCCEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Acmh' datatype='string' name='[ACMH]' role='dimension' type='nominal' />
+      <column caption='Acsh' datatype='string' name='[ACSH]' role='dimension' type='nominal' />
+      <column caption='Awnd' datatype='string' name='[AWND]' role='dimension' type='nominal' />
+      <column caption='Daev' datatype='string' name='[DAEV]' role='dimension' type='nominal' />
+      <column caption='Dapr' datatype='string' name='[DAPR]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='integer' name='[DATE]' role='measure' type='quantitative' />
+      <column caption='Dawm' datatype='string' name='[DAWM]' role='dimension' type='nominal' />
+      <column caption='Evap' datatype='string' name='[EVAP]' role='dimension' type='nominal' />
+      <column caption='Fmtm' datatype='string' name='[FMTM]' role='dimension' type='nominal' />
+      <column caption='Frgb' datatype='string' name='[FRGB]' role='dimension' type='nominal' />
+      <column caption='Frgt' datatype='string' name='[FRGT]' role='dimension' type='nominal' />
+      <column caption='Frth' datatype='string' name='[FRTH]' role='dimension' type='nominal' />
+      <column caption='Gaht' datatype='string' name='[GAHT]' role='dimension' type='nominal' />
+      <column caption='Mdev' datatype='string' name='[MDEV]' role='dimension' type='nominal' />
+      <column caption='Mdpr' datatype='string' name='[MDPR]' role='dimension' type='nominal' />
+      <column caption='Mdwm' datatype='string' name='[MDWM]' role='dimension' type='nominal' />
+      <column caption='Nextdayprecipamt' datatype='real' name='[NEXTDAYPRECIPAMT]' role='measure' type='quantitative' />
+      <column caption='Nextdayprecipflag' datatype='integer' name='[NEXTDAYPRECIPFLAG]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Nextdayprecipamt (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-2' formula='[NEXTDAYPRECIPAMT]' peg='0' size='0.083' />
+      </column>
+      <column datatype='integer' name='[Nextdayprecipflag (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[NEXTDAYPRECIPFLAG]' peg='0' size='0.266' />
+      </column>
+      <column caption='Pgtm' datatype='string' name='[PGTM]' role='dimension' type='nominal' />
+      <column caption='Prcp' datatype='integer' name='[PRCP]' role='measure' type='quantitative' />
+      <column caption='Precipamt' datatype='real' name='[PRECIPAMT]' role='measure' type='quantitative' />
+      <column caption='Precipflag' datatype='integer' name='[PRECIPFLAG]' role='measure' type='quantitative' />
+      <column caption='Psun' datatype='string' name='[PSUN]' role='dimension' type='nominal' />
+      <column caption='Snow' datatype='integer' name='[SNOW]' role='measure' type='quantitative' />
+      <column caption='Snwd' datatype='integer' name='[SNWD]' role='measure' type='quantitative' />
+      <column caption='Tavg' datatype='string' name='[TAVG]' role='dimension' type='nominal' />
+      <column caption='Thic' datatype='string' name='[THIC]' role='dimension' type='nominal' />
+      <column caption='Tmax' datatype='integer' name='[TMAX]' role='measure' type='quantitative' />
+      <column caption='Tmin' datatype='integer' name='[TMIN]' role='measure' type='quantitative' />
+      <column caption='Tsun' datatype='string' name='[TSUN]' role='dimension' type='nominal' />
+      <column caption='Wdf1' datatype='string' name='[WDF1]' role='dimension' type='nominal' />
+      <column caption='Wdf2' datatype='string' name='[WDF2]' role='dimension' type='nominal' />
+      <column caption='Wdf5' datatype='string' name='[WDF5]' role='dimension' type='nominal' />
+      <column caption='Wdfg' datatype='string' name='[WDFG]' role='dimension' type='nominal' />
+      <column caption='Wdfm' datatype='string' name='[WDFM]' role='dimension' type='nominal' />
+      <column caption='Wdmv' datatype='string' name='[WDMV]' role='dimension' type='nominal' />
+      <column caption='Wesd' datatype='string' name='[WESD]' role='dimension' type='nominal' />
+      <column caption='Wsf1' datatype='string' name='[WSF1]' role='dimension' type='nominal' />
+      <column caption='Wsf2' datatype='string' name='[WSF2]' role='dimension' type='nominal' />
+      <column caption='Wsf5' datatype='string' name='[WSF5]' role='dimension' type='nominal' />
+      <column caption='Wsfg' datatype='string' name='[WSFG]' role='dimension' type='nominal' />
+      <column caption='Wsfm' datatype='string' name='[WSFM]' role='dimension' type='nominal' />
+      <column caption='Wt01' datatype='string' name='[WT01]' role='dimension' type='nominal' />
+      <column caption='Wt02' datatype='string' name='[WT02]' role='dimension' type='nominal' />
+      <column caption='Wt03' datatype='string' name='[WT03]' role='dimension' type='nominal' />
+      <column caption='Wt04' datatype='string' name='[WT04]' role='dimension' type='nominal' />
+      <column caption='Wt05' datatype='string' name='[WT05]' role='dimension' type='nominal' />
+      <column caption='Wt06' datatype='string' name='[WT06]' role='dimension' type='nominal' />
+      <column caption='Wt07' datatype='string' name='[WT07]' role='dimension' type='nominal' />
+      <column caption='Wt08' datatype='string' name='[WT08]' role='dimension' type='nominal' />
+      <column caption='Wt09' datatype='string' name='[WT09]' role='dimension' type='nominal' />
+      <column caption='Wt10' datatype='string' name='[WT10]' role='dimension' type='nominal' />
+      <column caption='Wt11' datatype='string' name='[WT11]' role='dimension' type='nominal' />
+      <column caption='Wt13' datatype='string' name='[WT13]' role='dimension' type='nominal' />
+      <column caption='Wt14' datatype='string' name='[WT14]' role='dimension' type='nominal' />
+      <column caption='Wt15' datatype='string' name='[WT15]' role='dimension' type='nominal' />
+      <column caption='Wt16' datatype='string' name='[WT16]' role='dimension' type='nominal' />
+      <column caption='Wt17' datatype='string' name='[WT17]' role='dimension' type='nominal' />
+      <column caption='Wt18' datatype='string' name='[WT18]' role='dimension' type='nominal' />
+      <column caption='Wt19' datatype='string' name='[WT19]' role='dimension' type='nominal' />
+      <column caption='Wt21' datatype='string' name='[WT21]' role='dimension' type='nominal' />
+      <column caption='Wt22' datatype='string' name='[WT22]' role='dimension' type='nominal' />
+      <column caption='Wv01' datatype='string' name='[WV01]' role='dimension' type='nominal' />
+      <column caption='Wv03' datatype='string' name='[WV03]' role='dimension' type='nominal' />
+      <column caption='Wv07' datatype='string' name='[WV07]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_21106102BCE542D899B603E55EDBCCEF]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_21106102BCE542D899B603E55EDBCCEF'>
+            <properties context=''>
+              <relation connection='excel-direct.1aacryw0hbah2519zzj5p1h343k4' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:BN10001:no:A1:BN10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='DATE' ordinal='1' />
+                  <column datatype='integer' name='TMAX' ordinal='2' />
+                  <column datatype='integer' name='TMIN' ordinal='3' />
+                  <column datatype='integer' name='PRCP' ordinal='4' />
+                  <column datatype='integer' name='SNOW' ordinal='5' />
+                  <column datatype='integer' name='SNWD' ordinal='6' />
+                  <column datatype='string' name='DAPR' ordinal='7' />
+                  <column datatype='string' name='MDPR' ordinal='8' />
+                  <column datatype='string' name='WT01' ordinal='9' />
+                  <column datatype='string' name='WT16' ordinal='10' />
+                  <column datatype='string' name='WT18' ordinal='11' />
+                  <column datatype='string' name='GAHT' ordinal='12' />
+                  <column datatype='string' name='WT03' ordinal='13' />
+                  <column datatype='string' name='EVAP' ordinal='14' />
+                  <column datatype='string' name='WDMV' ordinal='15' />
+                  <column datatype='string' name='WT05' ordinal='16' />
+                  <column datatype='string' name='WT09' ordinal='17' />
+                  <column datatype='string' name='WT06' ordinal='18' />
+                  <column datatype='string' name='DAEV' ordinal='19' />
+                  <column datatype='string' name='DAWM' ordinal='20' />
+                  <column datatype='string' name='MDEV' ordinal='21' />
+                  <column datatype='string' name='MDWM' ordinal='22' />
+                  <column datatype='string' name='WT14' ordinal='23' />
+                  <column datatype='string' name='WT04' ordinal='24' />
+                  <column datatype='string' name='WT08' ordinal='25' />
+                  <column datatype='string' name='WESD' ordinal='26' />
+                  <column datatype='string' name='WT07' ordinal='27' />
+                  <column datatype='string' name='WSFG' ordinal='28' />
+                  <column datatype='string' name='FRGB' ordinal='29' />
+                  <column datatype='string' name='FRGT' ordinal='30' />
+                  <column datatype='string' name='FRTH' ordinal='31' />
+                  <column datatype='string' name='THIC' ordinal='32' />
+                  <column datatype='string' name='ACMH' ordinal='33' />
+                  <column datatype='string' name='ACSH' ordinal='34' />
+                  <column datatype='string' name='PSUN' ordinal='35' />
+                  <column datatype='string' name='TSUN' ordinal='36' />
+                  <column datatype='string' name='WDFM' ordinal='37' />
+                  <column datatype='string' name='WSFM' ordinal='38' />
+                  <column datatype='string' name='WT02' ordinal='39' />
+                  <column datatype='string' name='PGTM' ordinal='40' />
+                  <column datatype='string' name='WDFG' ordinal='41' />
+                  <column datatype='string' name='WDF1' ordinal='42' />
+                  <column datatype='string' name='WSF1' ordinal='43' />
+                  <column datatype='string' name='AWND' ordinal='44' />
+                  <column datatype='string' name='FMTM' ordinal='45' />
+                  <column datatype='string' name='WT17' ordinal='46' />
+                  <column datatype='string' name='WT10' ordinal='47' />
+                  <column datatype='string' name='WT15' ordinal='48' />
+                  <column datatype='string' name='WDF2' ordinal='49' />
+                  <column datatype='string' name='WDF5' ordinal='50' />
+                  <column datatype='string' name='WSF2' ordinal='51' />
+                  <column datatype='string' name='WSF5' ordinal='52' />
+                  <column datatype='string' name='WT19' ordinal='53' />
+                  <column datatype='string' name='WT11' ordinal='54' />
+                  <column datatype='string' name='WT13' ordinal='55' />
+                  <column datatype='string' name='WT22' ordinal='56' />
+                  <column datatype='string' name='TAVG' ordinal='57' />
+                  <column datatype='string' name='WV03' ordinal='58' />
+                  <column datatype='string' name='WV07' ordinal='59' />
+                  <column datatype='string' name='WV01' ordinal='60' />
+                  <column datatype='string' name='WT21' ordinal='61' />
+                  <column datatype='integer' name='PRECIPFLAG' ordinal='62' />
+                  <column datatype='real' name='PRECIPAMT' ordinal='63' />
+                  <column datatype='integer' name='NEXTDAYPRECIPFLAG' ordinal='64' />
+                  <column datatype='real' name='NEXTDAYPRECIPAMT' ordinal='65' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='NextDayPrecipitationFlag_Hist'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (project1_prepped)' name='federated.0tjqk1x1u2avxa1eq4bax0amjmrm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tjqk1x1u2avxa1eq4bax0amjmrm'>
+            <column caption='Nextdayprecipflag' datatype='integer' name='[NEXTDAYPRECIPFLAG]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Nextdayprecipflag (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[NEXTDAYPRECIPFLAG]' peg='0' size='0.266' />
+            </column>
+            <column-instance column='[NEXTDAYPRECIPFLAG]' derivation='Count' name='[cnt:NEXTDAYPRECIPFLAG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nextdayprecipflag (bin)]' derivation='None' name='[none:Nextdayprecipflag (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+        </panes>
+        <rows>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[cnt:NEXTDAYPRECIPFLAG:qk]</rows>
+        <cols>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[none:Nextdayprecipflag (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[Nextdayprecipflag (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{949EE697-F97C-4029-A0E8-BE36638A2008}' />
+    </worksheet>
+    <worksheet name='NextDayPrecipitation_Hist'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (project1_prepped)' name='federated.0tjqk1x1u2avxa1eq4bax0amjmrm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tjqk1x1u2avxa1eq4bax0amjmrm'>
+            <column caption='Nextdayprecipamt' datatype='real' name='[NEXTDAYPRECIPAMT]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Nextdayprecipamt (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-2' formula='[NEXTDAYPRECIPAMT]' peg='0' size='0.083' />
+            </column>
+            <column-instance column='[NEXTDAYPRECIPAMT]' derivation='Count' name='[cnt:NEXTDAYPRECIPAMT:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nextdayprecipamt (bin)]' derivation='None' name='[none:Nextdayprecipamt (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+        </panes>
+        <rows>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[cnt:NEXTDAYPRECIPAMT:qk]</rows>
+        <cols>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[none:Nextdayprecipamt (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.0tjqk1x1u2avxa1eq4bax0amjmrm].[none:Nextdayprecipamt (bin):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{AC70AB95-BA1D-49F4-B85C-FCE91AEB031C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='NextDayPrecipitation_Hist'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D9B38D66-E504-4E88-84CF-30A8A20B883C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='NextDayPrecipitationFlag_Hist'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D886CB2B-0F25-4613-A314-ABCBDF2860B0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='NextDayPrecipitationFlag_Hist' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='NextDayPrecipitation_Hist' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJ+UlEQVR4nO3dzW8beR0G8MfvdhwntlO/5qVvaVNUumi3WkFVCbGXhQtnJO78FZz5SxAc
+      OCGBkOACCKQVWqFNV31JqybYTuI4Tew4dsaeF88MhzRZduNGM2E99cz3+dxsTfL9HfLEHs/j
+      +YVs27ZBJFT4fS+A6H36vwNgmqbrnxmNRhM9PigzpnFNQZlxdnzI6VugZ+tPsHhzGY1GC5Vq
+      GYamolwuwzRNhEIhV8Mty0I47Dx7bo8PyoxpXFNQZpwdH3Vy8PGbHdR2W8gvLyGbz6HXbsGK
+      ZhAOh2HbNiKRiOPBwGn6olFHo690fFBmTOOagjLj7HhHPzFfXMIPH89ioA0wPBmiVF2BZejg
+      2TP5nePIZLJZZJBFqTTJ5RB5i58CkWgMAInGAJBoDACJxgCQaAwAicYAkGjuLs+9g6Iojo5L
+      JpOurxoTTZLjADxbf4LCYhF7+8dYrBShayqq1SoA4Oe/+oOj3/HbX/4U6XT6aislmgBXXSAz
+      NYPKfBpv2i3EohlYlgXLshwPM00To9EIlmW5au+5Pf4qPzONM6ZxTUGZcXa8qy5QKGJj980x
+      lisrMAwdoXAYYRffp4lEIohGo4EoU3kxYxrXFJQZrspwwGkXCADWMjnHQ4imHT8FItEYABKN
+      ASDRGAASjQEg0RgAEo0BINEYABLNUQAsU8fmVg2GPsT2bguapmM4HE56bUQT5+hKsG2HYA07
+      2Ng0oA4GUJUjhOMZ3FypsgvELpAvZ7jqAo10FfrIhGqqsHQd8UwRxonCLhC7QL6d4aoLlJjJ
+      4P73Pnb8y4n8gifBJBoDQKIxACQaA0CiMQAkGgNAojEAJBoDQKIxACSaowCMtAE2XrxAt9vF
+      q606+v0TdDqdSa+NaOIcVSGiiRlEzAE267tIJ+Jo7TUQis0hm82yDMcynC9nuCrDaYM+rGgS
+      +fQcBic9zJcrsPQhy3Asw/l2husy3Nq9+45/OZFf8CSYRGMASDQGgERjAEg0BoBEYwBINAaA
+      RGMASDQGgERzXoZ7/iU6io4n61+i3e6g2WxOem1EE+e8DAcTtY2naB+fIJ6IIprgLpEsw/l3
+      hvsyXDiFu/dXMVJPEIlEuUukBzOmcU1BmXGFMty90wfJrOMhRNOOJ8EkGgNAojEAJBoDQKIx
+      ACQaA0CiMQAkGgNAornaJXJkqKjvNLlLJAWGq10iW0c5mNoQjfomd4n0YMY0rikoM660S2R/
+      twGEoygWs1C5SyS7QD6ewV0iicCTYBKOASDRGAASjQEg0RgAEo0BINEYABKNASDRGAASzVkV
+      Qhvg9VYdhVIJB50eFkvXYBg68vn8pNdHNFGudolsHvZQSkWwvddAnLtEsgzn4xlX2iUyFQZa
+      PQXVchmayl0iWYbz7wzuEkkEngSTcAwAicYAkGgMAInGAJBoDACJxgCQaAwAicYAkGiOrgSb
+      2gAvXz6Haqdh6CqWlsrQhkPcunVr0usjmiiH5Qkb6YVlZK0B9vZU9PtdRKJp7hLJMpxvZ7gq
+      w1k2oJ50kS1XcC2URLmwANMcsQzHMpxvZ7gqw8WSaaytrQEA5ufn3j4bdzyMaFrxJJhEYwBI
+      NAaARGMASDQGgERjAEg0BoBEYwBINGcBsC3UazWY1gj1xg53iaTAcFaGMzTMJEP44otnyORy
+      2KlvAtwlkl0gH89wt0vksI9X9UNUClkcHewjt7QEa8BdItkF8u8MdzfGmi/i8feLpw9u3XY8
+      hGja8SSYRGMASDQGgERjAEg0BoBEYwBINAaARGMASDQGgEQbEwADv/v1b/DH3/8J6ttnTG2A
+      lxsvoGgmarUa+v0TdDodTxdKNAljqhAx3LlzA309jMjbZ8LxFHLzM+getNBTdJh6AzZ3iWQZ
+      zsczLi3D2SFgdjaN0NvHeu8AOwcKCrkMVKWLwo1VWAZ3iWQZzr8zLi3D5fM5tNpDnP1pJ+aL
+      +OiD0zLc8vKy4yFE027sSfBRp4l//e3fMLxeDZHHxgagWLqO/PUckl6vhshjYwPQqDWQNDS8
+      2tn3ej1EnhpzDqAjM7eA0o00bi+VvF8RkYfGBCCOfLGAcikE5x9wEvnT2LdAw+4u/vzZutPd
+      M4h8a2wAjgdddDb3oHu9GiKPjf0nf23hOn72ix/wUyAKvLGvAMlEDC+ePofp9WqIPDb2FWB7
+      Zw9qrw/NNBGNRM53iUxml3C430R1qQKdu0RSAIwNQDJs4UjT0N7vIF0t4GyXyPxsDJn0TfTa
+      LVjcJZJlOB/PuLQMlytVUFJM9Hp9oFo43yVSiczj+FjB8o3bAHeJZBnOxzMuLcMpyhH2do7x
+      +JPTtzj/u0tkuXx2FHeJJP+7cBJsWxZSmQIWsvwDp+C78AqgKsf45z8+QyIUhwH+n6dgu/AK
+      kMrk8OjjD5FZyCP2PlZE5KEx1wFMbG3VkYjH2AWiwBsTgAju3llBp6fwlhEUeGP/xlVdQSo8
+      w1cACryxAUjPzmFo6TwBpsC7EIBB9wCff76Ora0ttkEp8C58DKoP+jjoj/Dwowfn9wUytQFe
+      /6eOhUIRh0d9LJauwTB05PN5j5dL9O26EIBwLIMf/+RTLBavffXc2xtjHXb6yCcj2N5rIM4b
+      Y7EL5OMZ7+wCpWYT+Ptf/opnqXl88umPEMNXN8Yq5jJo9RRUy2VoKm+MxS6Qf2e8swsUS82h
+      Ushj/00PIwAxfP3GWEuORxBNv7GRWfvOXYRnO0h5vRoij40JgImNjRoioQhUgF+LpEAb+wow
+      7LdxMAjhgderIfLYmABEEE8msTg37/1qiDw29krw7dVV6IZ+fnt0oqB6Z99NUwa8KwQF3jtu
+      j96Badt8BaDAu/iVyJGOSCKJUDR6XoUgCqoLATjcegFzbhH5ZJQbZFDgXfgUqHD3A7SfriN/
+      /db5NQDLUPG60cLCbBzNg2OUKyUYmopqterxcom+XWM+Bg3h3nc//Noz4VgSmZkkDEODruk4
+      arcQimZ4YyyW4Xw749IbY32TqQ1weHiAhYUFpGfTKFXKMA2dZTiW4Xw749IbY31TJDGDBw9O
+      rwvzTQ8FCb/3TqIxACQaA0CiMQAkGgNAojEAJBoDQKIxACSaswDYNo6OurCtEeqNHWiajuFw
+      OOGlEU2eoyvB1kjHUe8EvcM9qJE0duqbQDyDmytVdoHYBfLlDFddINsysd/cRrFQwMnBPnJL
+      S7AGCrtA7AL5dobrLtCjR49OH6w6nkE09XgSTKIxACQaA0CiMQAkGgNAojEAJBoDQKIxACQa
+      A0CiOQqAZaiobTcBALVaDf3+CTqdzkQXRuQFR1WIcCyJRDSM4/Y+eooOU2/A5i6RLMP5eIbr
+      G2M1m7soFApQlS4KN1ZhGdwlkmU4/85wXYZ7+PAhAGBlZcXxEKJpx5NgEo0BINEYABKNASDR
+      GAASjQEg0RgAEo0BINEYABLtv9O9wMjxypfaAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
